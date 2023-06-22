@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    list-style: none;
+    text-decoration: none;
+    font-family: Chelsea Basis, sans-serif;
+    background-color: darkolivegreen;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 8px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a li:hover {
+    color: blue;
+}
+
+.navList1 ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.navList2 {
+    display: flex;
+    margin-left: -40px;
+}
+
+.navList2 .first1, .first2{
+    display: flex;
+}
+
+.navList2 .first1 {
+    margin-right: 10px;
+}
+
+.navList3 {
+    font-size: 30px;
+}
+
+.first-sect h1{
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.second-sect h2{
+    opacity: 0.5;
+    margin-top: 100px;
+    margin-left: 470px;
+}
+
+.second-sect h1{
+    margin-left: 470px;
+}
+
+.forms {
+    margin-top: 3rem;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    margin: auto;
+    height: 100px;
+}
+
+.forms form input {
+    width: 100%;
+    padding: 25px 13px;
+    border: 2px solid white;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    background: lightgray;
+    border-radius: 10px;
+  }
+  
+  .forms form input::placeholder {
+    font-size: 18px;
+    /* color: rgba(0, 0, 0, 0.385); */
+    padding: 35px 20px;
+
+  }
+
+
+   /* TABS */
+ 
+
+  /* IPHONE SCREENS > */
+  @media (width: 390px) {
+    body {
+        width: 100vw;
+    }
+
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 75vw;
+    }
+   .navbar .navList1,
+   .navbar .navList2 {
+    display: none;}
+
+    .navList3 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .logo {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .second-sect h2 {
+        /* opacity: 0.5; */
+        padding-left: 15px;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .first-sect h1 {
+        padding-left: 15px;
+        font-size: 18px;
+        width: 100vw;
+    }
+
+    .forms {
+        margin-top: -3rem;
+    }
+
+    .forms form {
+        padding: 18px;
+        width: 100%;
+        margin: auto;
+        height: 100px;
+    }
+
+    .forms form input {
+        width: 75%;
+        padding: 10px 8px;
+        border: 2px solid white;
+        margin: auto;
+        margin-left: -0.05rem;
+        margin-bottom: 9px;
+        outline: none;
+        background: lightgray;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    label {
+        font-size: 75%;
+        margin-bottom: 7px;
+    }
+
+    .forms form input::placeholder {
+        font-size: 14px;
+    }
+   }
+  

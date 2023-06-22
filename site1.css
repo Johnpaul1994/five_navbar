@@ -1,0 +1,198 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Chelsea Basis, sans-serif;
+}
+
+body{
+    background-color: #2F1893;
+    color: white;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.navList ul li{
+    text-decoration: none; 
+}
+
+.logo span {
+    color: #ddd;
+}
+
+.navList ul{
+    gap: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navList ul li:hover {
+    color: #E93A7D;
+}
+
+a li{
+    list-style: none;
+    color: white;
+}
+
+.button2 button{
+    border: none;
+    font-size: 15px;
+    background-color: #E93A7D;
+    color: #ffffff;
+    padding: 10px 13px;
+    border-radius: 25px;
+    margin-right: 1.0rem;
+    width: 200px;
+    cursor: pointer;
+}
+
+.buttons0 button{
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    background-color: #E93A7D;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 25px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.button1 button{
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    background-color: #E93A7D;
+    color: #ffffff;
+    padding: 10px 13px;
+    border-radius: 25px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.logo span{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+ h1{
+    font-size: 60px;
+}
+
+.h1-style{
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+.forms{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+.forms .checkbox1{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.forms .checkbox1 p {
+    padding-left: 15px;
+}
+
+
+.forms .checkbox1 > p{
+    font-size: 11px;
+    
+}
+
+p{
+    color: #2F1893;
+}
+
+span{
+    color: #2F1893;
+    font-size: 14px;
+}
+
+.h1-style{
+    text-align: center;
+}
+
+.forms form .width {
+    width: 100%;
+    padding: 10px 13px;
+    border: none;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.last-section{
+    display: flex;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+@media (min-width: 375px) and (max-width: 576px){
+    .navbar{
+        padding-left: 1rem;
+        gap: 4px;
+        margin-right: 18px;
+    }
+    .navList ul{
+        margin-top: -9px;
+        gap: 0.5rem;
+        font-size: 12px;
+        justify-content: center;
+        margin-left: 7px;
+        align-items: center;
+    }
+    .logo span {
+        font-size: 12px;
+        margin-left: 2rem;
+        display: flex;
+    }
+    .button1 button{
+        font-size: 10px;
+        width: 70px;
+        padding: 9px;
+        border-radius: 3px;
+    }
+    .section1{
+        /* display: flex; */
+        margin-left: 10px;
+    }
+    .section1 h1{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+} 

@@ -1,0 +1,146 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --btn-padding: 10px 13px;
+    --btn-color: #005ce6;
+  }
+
+.navbar1 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-left: 20px;
+    color: #140a47;
+    font-family:Chelsea Basis;
+}
+  /* .navbar1 */
+
+.navbar1 .navList1 a {
+    justify-content: space-around;
+    padding-right: 18px;
+}
+
+ .navbar1 .navList2 a{
+    padding-right: 18px;
+}
+
+ .navList2{
+    margin-left: 350px;
+    border-right: 1px solid grey;
+    
+}
+
+.firstSec {
+    display: flex;
+    padding: 8px 6px;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+.firstSec .navList3 a{
+    font-family: Chelsea Basis;
+    padding-right: 15px;
+}
+
+.firstSec {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.thirdsec h1{
+    font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-family: Chelsea Basis;
+}
+
+.thirdsec p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.508);
+  width: 400px;
+  margin: auto;
+  margin-top: 2rem;
+  font-family: Chelsea Basis;
+}
+
+.forms {
+    margin-top: 1.5rem;
+    font-size: 20px;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+}
+
+.forms form input {
+    width: 370px;
+    padding: var(--btn-padding);
+    border: none;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: #ddd;
+}
+
+.forms form input::placeholder{
+    font-size: 16px;
+}
+
+/* .forms form label:last-of-type,
+.forms form label:first-of-type {
+    color: var(--btn-color);
+    align-self: flex-start;
+} */
+
+label {
+    color: var(--btn-color);
+}
+
+.buttons {
+    margin: auto;
+}
+
+.buttons button {
+    background-color: var(--btn-color);
+    font-size: 15px;
+    border-radius: 10px;
+    color: #fff;
+    padding: var(--btn-padding);
+    font-weight: 600;
+    font-family: Chelsea Basis;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background-color: var(--btn-color);
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+

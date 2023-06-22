@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Chelsea Basis, sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url("/images/Image.png");
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 18px 18px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.logo{
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+a {
+    color: black;
+    border: 2px solid white;
+    border-radius: 100px;
+    background-color: aqua;
+    color: white;
+    padding: 7px 12px;
+    width: 80px;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+.first-sect h1{
+    color:darkblue;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.first-sect p{
+    margin-left: 150px;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.first-sect{
+    display: flex;
+}
+
+img{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.forms {
+    margin-top: 3rem;
+    font-size: 20px;
+  }
+  
+  .forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    /* margin: auto; */
+    color: blue;
+    margin-top: 45px;
+    margin-left: 90px;
+  }
+  
+  .forms form input {
+    width: 370px;
+    padding: 17px 17px;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  .forms form input::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.385);
+  }
+  
+  .forms form label:last-of-type,
+  .forms form label:first-of-type {
+    color: var(--btn-color);
+    align-self: flex-start;
+  }
+
+  .buttons2 button{
+    background-color: blue;
+    font-size: 15px;
+    border-radius: 100px;
+    color: #fff;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-family: Chelsea Basis;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  .buttons1 button{
+    background-color: blue;
+    font-size: 15px;
+    border-radius: 100px;
+    color: #fff;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-family: Chelsea Basis;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+
+  .second-sect{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 50px;
+    margin-left: 135px;
+    margin-top: -50px;
+  }
+
+  @media (min-width: 375px) and (max-width: 676px){
+    .navbar{
+      align-items: center;
+    }
+    .buttons1 button{
+      margin-left: 6rem;
+    }
+    .navList{
+      margin-left: 580px;
+    }
+    .logo span{
+      margin-left: -5rem;
+    }
+  }
